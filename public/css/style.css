@@ -1,0 +1,243 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Berkshire Swash', cursive; }
+
+a {
+  font-size: 15px;
+  color: #000;
+  transition: color 0.5s ease; }
+  a:hover {
+    text-decoration: none;
+    color: #ff6f00;
+    transition: color 0.5s ease; }
+
+p {
+  color: #777777;
+  font-size: 16px; }
+
+.navbar-toggler {
+  float: right;
+  margin-top: 15px; }
+
+.orange {
+  font-size: 2.5rem;
+  color: #ff6f00;
+  font-family: 'Berkshire Swash', cursive; }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .phone {
+    text-align: right; }
+
+  .envelope {
+    text-align: left; } }
+#contactInfo {
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 20px 10px 20px; }
+
+.infoItem {
+  padding-bottom: 5px; }
+
+/*Main*/
+.main {
+  background-image: url(../images/sky.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Navigation Bar*/
+.nav-item {
+  padding-left: 20px; }
+
+#navigation {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+@media screen and (max-width: 767px) {
+  .nav-item {
+    text-align: center; }
+
+  .astronomy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff; }
+    .astronomy h1 {
+      font-size: 2.5rem; }
+    .astronomy h3 {
+      font-size: 1.2rem; }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center; } }
+/*Astronomy*/
+@media screen and (min-width: 768px) {
+  .astronomy {
+    padding-top: 170px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff; } }
+/*Jumbotron*/
+.white {
+  background-color: #fff;
+  margin-bottom: 0px; }
+  .white h2 {
+    text-align: center; }
+
+.default {
+  margin-bottom: 0px; }
+  .default h2 {
+    text-align: center; }
+
+.paragraph {
+  text-align: center; }
+
+/*Choose*/
+.image {
+  float: left;
+  width: 120px;
+  height: 120px;
+  line-height: 90px;
+  border-radius: 100%;
+  background-color: #ff6f00;
+  text-align: center;
+  border: 10px solid #FFFFFF; }
+
+.imageInfo {
+  position: absolute;
+  border: white solid 10px;
+  float: left;
+  margin-left: -10px;
+  margin-top: 30px;
+  background-color: #FFFFFF; }
+
+.choose-icon {
+  margin-bottom: 10px; }
+
+.service-div {
+  text-align: center;
+  margin-bottom: 35px; }
+  .service-div p {
+    padding: 10px 10px; }
+  .service-div a {
+    margin-bottom: 20px; }
+  .service-div .service-icon {
+    margin: auto;
+    width: 90%;
+    border: solid #cecece 1px;
+    transition: 0.5s ease;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .service-div img {
+    margin: 30px 0px 25px 0px;
+    padding: 10px;
+    border: solid 10px #fff;
+    border-radius: 100%; }
+  .service-div .service-icon:hover {
+    transition: 0.5s ease;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
+    .service-div .service-icon:hover img {
+      transition: 0.5s ease;
+      -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
+
+#overlay {
+  background-image: url(../images/overview_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: right; }
+  #overlay .jumbotron {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 0px; }
+  #overlay p {
+    font-style: italic;
+    color: #fff;
+    text-align: justify; }
+  #overlay h1 {
+    color: #fff;
+    text-align: right; }
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #222222;
+  text-align: center; }
+  #footer p {
+    padding-top: 15px;
+    color: #fff; }
+  #footer .m-row {
+    text-align: left; }
+  #footer hr {
+    border: solid 1px #ff6f00;
+    width: 50%;
+    margin: 10px 0px 25px; }
+  #footer ul {
+    padding-left: 0px;
+    list-style: none; }
+    #footer ul hr {
+      border: dotted 0.5px #ddd;
+      width: 100%;
+      margin: 5px 0px; }
+  #footer a {
+    color: #fff;
+    font-size: 15px; }
+    #footer a:hover {
+      color: #ff6f00; }
+  #footer i {
+    color: #ff6f00; }
+  #footer .footer-item {
+    margin-bottom: 30px; }
+
+.serviceOverlay {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: #fff; }
+
+.blog h1, .blog h2, .blog h3, .blog h4, .blog h5, .blog h6 {
+  color: #464a4e;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif; }
+.blog #blogPagination li {
+  display: inline-block; }
+.blog p {
+  color: #424242; }
+
+#blogEdit {
+  background-color: #e9ecef;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #blogEdit form {
+    padding: 30px; }
+
+.package {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  text-align: center; }
+  .package h2 {
+    color: #f96e00;
+    background-color: #fff;
+    border: solid #f4f4f4 8px;
+    border-radius: 100%;
+    margin: auto;
+    padding-top: 40px;
+    height: 130px;
+    width: 130px;
+    transition: 0.3s ease-in;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .package h2:hover {
+    color: #fff;
+    background-color: #f96e00;
+    transition: 0.3s ease-in;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
+
+/*# sourceMappingURL=style.css.map */
